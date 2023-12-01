@@ -1,0 +1,39 @@
+﻿  main.cpp
+c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(319): warning C4244: 'argument': conversion from 'const DataType' to 'unsigned int', possible loss of data
+c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(78): warning C4244: 'argument': conversion from 'PointType' to 'T', possible loss of data
+          with
+          [
+              PointType=DataType
+          ]
+          and
+          [
+              T=float
+          ]
+  c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(74): note: while compiling class template member function 'void Quad<DataType>::drawRecursive(sf::RenderWindow &,sf::Font &,sf::Vector2i,Quad<DataType> *&,int) const'
+  c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(114): note: see reference to function template instantiation 'void Quad<DataType>::drawRecursive(sf::RenderWindow &,sf::Font &,sf::Vector2i,Quad<DataType> *&,int) const' being compiled
+  c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(313): note: see reference to class template instantiation 'Quad<DataType>' being compiled
+c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(79): warning C4244: 'argument': conversion from 'const PointType' to 'float', possible loss of data
+          with
+          [
+              PointType=DataType
+          ]
+c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(91): warning C4244: 'argument': conversion from 'PointType' to 'float', possible loss of data
+          with
+          [
+              PointType=DataType
+          ]
+c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(97): warning C4244: 'argument': conversion from 'PointType' to 'float', possible loss of data
+          with
+          [
+              PointType=DataType
+          ]
+c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(276): warning C4018: '<': signed/unsigned mismatch
+  c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(291): note: see reference to function template instantiation 'void PrintFindedVector<DataType>(std::vector<Node<DataType> *,std::allocator<_Ty>>,int)' being compiled
+          with
+          [
+              _Ty=Node<DataType> *
+          ]
+  c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(352): note: see reference to function template instantiation 'void MouseMethod<DataType>(const Quad<DataType> &,sf::Vector2i)' being compiled
+  QuadVisual.vcxproj -> C:\Users\user\Desktop\C++\QuadWithVisual\QuadVisual\Debug\QuadVisual.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
