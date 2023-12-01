@@ -1,0 +1,38 @@
+﻿  main.cpp
+c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(77): warning C4244: 'argument': conversion from 'PointType' to 'T', possible loss of data
+          with
+          [
+              PointType=DataType
+          ]
+          and
+          [
+              T=float
+          ]
+  c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(73): note: while compiling class template member function 'void Quad<DataType>::drawRecursive(sf::RenderWindow &,sf::Font &,sf::Vector2i,Quad<DataType> *&,int) const'
+  c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(113): note: see reference to function template instantiation 'void Quad<DataType>::drawRecursive(sf::RenderWindow &,sf::Font &,sf::Vector2i,Quad<DataType> *&,int) const' being compiled
+  c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(311): note: see reference to class template instantiation 'Quad<DataType>' being compiled
+c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(78): warning C4244: 'argument': conversion from 'const PointType' to 'float', possible loss of data
+          with
+          [
+              PointType=DataType
+          ]
+c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(90): warning C4244: 'argument': conversion from 'PointType' to 'float', possible loss of data
+          with
+          [
+              PointType=DataType
+          ]
+c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(96): warning C4244: 'argument': conversion from 'PointType' to 'float', possible loss of data
+          with
+          [
+              PointType=DataType
+          ]
+c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(281): warning C4018: '<': signed/unsigned mismatch
+  c:\users\user\desktop\c++\quadwithvisual\quadvisual\quadvisual\main.cpp(349): note: see reference to function template instantiation 'void PrintFindedVector<NodeType>(std::vector<Node<NodeType> *,std::allocator<_Ty>>,int)' being compiled
+          with
+          [
+              NodeType=DataType,
+              _Ty=Node<DataType> *
+          ]
+  QuadVisual.vcxproj -> C:\Users\user\Desktop\C++\QuadWithVisual\QuadVisual\Debug\QuadVisual.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
