@@ -301,14 +301,14 @@ const auto WINDOW_WIDTH = 1000;
 const auto WINDOW_HEIGHT = 1000;
 
 //CHANGE DATA TYPE 
-using DataType = double;
+using DataType = int;
 
 int main()
 {
 	sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "Quadtree Visualization");
 	window.setFramerateLimit(60);
 
-	Quad<DataType> center(Point<DataType>(0.0, 0.0), Point<DataType>(WINDOW_WIDTH, WINDOW_HEIGHT), 4);
+	Quad<DataType> center(Point<DataType>(0.0, 0.0), Point<DataType>(WINDOW_WIDTH, WINDOW_HEIGHT), 2);
 
 	Node<DataType> a(Point<DataType>(100.0, 100.0), 100.0);
 	Node<DataType> b1(Point<DataType>(200.0, 200.0), 101.0);
@@ -323,6 +323,24 @@ int main()
 	Node<DataType> i(Point<DataType>(300.0, 700.0), 110.0);
 	Node<DataType> j(Point<DataType>(800.0, 200.0), 111.0);
 	Node<DataType> k(Point<DataType>(850.0, 150.0), 112.0);
+	Node<DataType> l(Point<DataType>(200.0, 500.0), 113.0);
+	Node<DataType> m(Point<DataType>(550.0, 350.0), 114.0);
+	Node<DataType> n(Point<DataType>(750.0, 450.0), 115.0);
+	Node<DataType> o(Point<DataType>(450.0, 100.0), 116.0);
+	Node<DataType> p(Point<DataType>(350.0, 250.0), 117.0);
+	Node<DataType> q(Point<DataType>(600.0, 550.0), 118.0);
+	Node<DataType> r(Point<DataType>(150.0, 450.0), 119.0);
+	Node<DataType> s(Point<DataType>(700.0, 300.0), 120.0);
+	Node<DataType> t(Point<DataType>(250.0, 600.0), 121.0);
+	Node<DataType> u(Point<DataType>(400.0, 150.0), 122.0);
+	Node<DataType> v(Point<DataType>(600.0, 700.0), 123.0);
+	Node<DataType> w(Point<DataType>(850.0, 400.0), 124.0);
+	Node<DataType> x(Point<DataType>(200.0, 350.0), 125.0);
+	Node<DataType> y(Point<DataType>(500.0, 250.0), 126.0);
+	Node<DataType> z(Point<DataType>(750.0, 600.0), 127.0);
+	Node<DataType> aa(Point<DataType>(100.0, 500.0), 128.0);
+	Node<DataType> ab(Point<DataType>(300.0, 200.0), 129.0);
+	Node<DataType> ac(Point<DataType>(700.0, 450.0), 130.0);
 
 	center.insert(&a);
 	center.insert(&b1);
@@ -337,6 +355,16 @@ int main()
 	center.insert(&i);
 	center.insert(&j);
 	center.insert(&k);
+	center.insert(&t);
+	center.insert(&u);
+	center.insert(&v);
+	center.insert(&w);
+	center.insert(&x);
+	center.insert(&y);
+	center.insert(&z);
+	center.insert(&aa);
+	center.insert(&ab);
+	center.insert(&ac);
 
 	// Load a font
 	sf::Font font;
